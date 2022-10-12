@@ -8,9 +8,6 @@
     --purple: #8B5Cf6;
 }
 
-
-/* hello */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,15 +28,16 @@ body {
 .main-box {
     height: 500px;
     width: 700px;
-    border: 2px solid;
+    border: 1px;
     margin-top: 8%;
     margin-left: 370px;
     background-color: #121010;
     box-shadow: 15px 15px #202020;
+    border-radius: 25px;
 }
 
 
-/* //for the top navigation button// */
+/* //for the top navigation tab// */
 
 .topnav {
     overflow: hidden;
@@ -62,12 +60,15 @@ header {
     margin: 0 auto;
 }
 
-header h1 {
+header h2 {
     font-size: 2.5rem;
     font-weight: 300;
     color: var(--gray);
     margin-bottom: 1rem;
 }
+
+
+/* for the task button */
 
 #new-task {
     display: flex;
